@@ -4,13 +4,22 @@ body {
 }
 
 #main {
-  display: flex;
-  border-radius: 30px;
+  display: inline-block;
+  width: 100%;
+}
+
+#fotoperfil {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
   margin-right: 20px;
 }
 
-#apresentacao h1 {
+#apresentacao h1,
+h3,
+h4 {
   margin: 0;
+  display: inline-block;
 }
 
 #contato,
@@ -25,11 +34,11 @@ body {
 }
 
 #contato p,
-#formacao-cursos {
+#formacao-cursos p {
   margin: 0;
 }
 
-#atividades-experiencias {
+#atividades-experiencias p {
   margin-top: 20px;
 }
 li {
