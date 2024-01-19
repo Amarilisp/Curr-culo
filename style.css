@@ -1,0 +1,39 @@
+body {
+  font-family: "Arial", sans-serif;
+  margin: 80px;
+}
+
+#main {
+  display: flex;
+  border-radius: 30px;
+  margin-right: 20px;
+}
+
+#apresentacao h1 {
+  margin: 0;
+}
+
+#contato,
+#formacao-cursos {
+  margin-top: 20px;
+}
+
+#contato h2,
+#formacao-cursos h2 {
+  border-bottom: 2px solid #333;
+  padding-bottom: 5px;
+}
+
+#contato p,
+#formacao-cursos {
+  margin: 0;
+}
+
+#atividades-experiencias {
+  margin-top: 20px;
+}
+li {
+  text-align: justify;
+  padding: 0;
+  margin: 30px 0;
+}
